@@ -1,57 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Javier López">
-    <title>Forward Fitness Club</title>
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
 </head>
 
 <body>
-    <div id="top">
+    <div id="up">
         <header>
-            <a href="index.html">
-                <img src="images/ffc_logo.png" width="297" height="220" alt="Logo of Forward Fitness Club">
-            </a>
+            <h1>Forward Fitness Club</h1>
+            <a href="index.html"><img src="images/fflogo.png" alt="Forward Fitness Club logo" id="logo"></a>
         </header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="index.html">Home </a></li>
+                <li><a href="about.html">About us</a></li>
                 <li><a href="classes.html">Classes</a></li>
                 <li><a href="nutrition.html">Nutrition</a></li>
-                <li><a href="contactUs.html">Contact Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </div>
+    <img src="images/trainWithUs.jpg" alt="left arm extended holding a weight" class="tablet-desktop">
     <main>
-        <img src="images/homeBanner.jpg" height="100%" width="100%" alt="Baner of the page" id="banner">
-        <article>
-            <section>
-                <p>Welcome to Forward Fitness Club. Our mission is to help our clients meet their fitness and
-                    nutrition
-                    goals.</p>
-            </section>
-            <section>
-                <p>If you have struggled with getting healthy and need the motivation and resources to make a
-                    healthy
-                    lifestyle change, contact us today. Our facility includes state-of-the-art equipment, convenient
-                    group training classes, and nutrition tips and information to keep you healthy.</p>
-            </section>
-            <section>
-                <p>We provide a <b>FREE</b>, one-week membership to experience the benefits of our equipment and
-                    facility. This one-week trial gives you complete access to our equipment, training classes, and
-                    nutrition planning. Contact us today for your free trial!</p>
-            </section>
-        </article>
+        <div class="mobile">
+            <p>Welcome to Forward Fitness Club. Our mission is to help our clients meet their fitness and nutrition
+                goals.</p>
+            <p><strong>FREE One-Week Trial Membership!</strong></p>
+            <p>Call Us Today to Get Started</p>
+            <p class="tel-link"><a href="tel:8145559608">(814)555-9608</a></p>
+            <h2>Fitness Club Hours:</h2>
+            <ul>
+                <li>Mon-Thu: 6:00am-6:00pm</li>
+                <li>Friday: 6:00am-4:00pm</li>
+                <li>Saturday: 8:00am-6:00pm</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </div>
+        <div id="intro" class="tablet-desktop">
+            <p>Welcome to Forward Fitness Club. Our mission is to help our clients meet their fitness and nutrition
+                goals.</p>
+            <p>If you have struggled with getting healthy and need the motivation and resources to make a healthy
+                lifestyle change, contact us today. Our facility includes state-of-the-art equipment, convenient
+                group
+                training classes, and nutrition tips and information to keep you healthy.</p>
+            <p>We provide a FREE one-week membership so you can experience the benefits of our equipment and
+                facility.
+                This one-week trial gives you complete access to our equipment, training classes, and nutrition
+                planning. Contact us today to <span class="action">start your free trial!</span></p>
+        </div>
+        <div id="aside">
+            <!--Deberia de ser un aside pero se especifica que es un div-->
+            <figure>
+                <a href="classes.html">
+                    <img src="images/group.jpg" alt="Group of people running">
+                    <figcaption>Group Fitness</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="nutrition.html">
+                    <img src="images/meal.webp" alt="Delicious healthy salad">
+                    <figcaption>Meal Plans</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="contact.html">
+                    <img src="images/train.webp" alt="Unknown person lifting weights">
+                    <figcaption>Start Today</figcaption>
+                </a>
+            </figure>
+        </div>
     </main>
     <footer>
-        <cite>&#169; Copyright 2021. All Rights Resserved</cite>
-        <p><a href="mailto:forwardfitness@club.net">forwardfitnes@club.net</a></p>
+        <p>&copy; Copyright 2021. All Rights Reserved.</p>
+        <p><a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>
     </footer>
 </body>
+
 
 </html>
